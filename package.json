@@ -1,0 +1,8 @@
+{
+  "name": "zhufeng_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/631535199/zhufeng_app.git",
+  "author": "631535199 <631535199@qq.com>",
+  "license": "MIT"
+}
