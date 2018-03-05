@@ -3,23 +3,24 @@ react  react-router4 redux react-redux
 $ yarn init -y
 ## webpack
 
-yarn add webpack webpack-dev-server
+yarn add webpack webpack-dev-server -dev
+yarn add webpack-cli -D
 
 ##babel
 
-yarn install babel-core babel-loader babel-preset-es2015 babel-preset-stage-0 babel-preset-react css-loader style-loader less less-loader html-webpack-plugin -D
+yarn add babel-core babel-loader babel-preset-es2015 babel-preset-stage-0 babel-preset-react css-loader style-loader less less-loader html-webpack-plugin  -dev
 
 ##react
 
-yarn install react redux react-redux react-router-dom -S
+yarn add react redux react-redux react-router-dom react-dom
 
 ##fetch
 
-yarn install es6-promise whatwg-fetch -D
+yarn add es6-promise whatwg-fetch -dev
 
 ##express
 
-yarn install express -S
+yarn add express
 
 ##scripts
 
