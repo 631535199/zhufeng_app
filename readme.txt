@@ -22,7 +22,20 @@ yarn add es6-promise whatwg-fetch -dev
 
 yarn add express
 
+##swiper
+yarn add swipe-js-iso react-swipe
+
 ##scripts
 
 "start","webpack-dev-server --port 5000 --open --progress --colors",
 "build","webpack -p"
+
+
+##目录结构
+-components 组件 木偶组件
+-containers 页面组件
+    -home
+        -subpage 智能组件
+        -index.js
+-index.js用来控制显示哪一个页面
+

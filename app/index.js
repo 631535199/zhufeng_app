@@ -2,8 +2,11 @@
 
 import React from 'react';
 import {render}from 'react-dom';
+import './assets/index.less'
+import App from "./containers/index";
 
 
 
-render(<h1>hello</h1>, document.getElementById('root'));
+
+render(<App/>, document.getElementById('root'));
 
