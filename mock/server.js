@@ -11,6 +11,14 @@ app.get('/api/ad',(req,res)=>{
     res.send(ad);
 })
 
+let list = require('./home/list');
+//获取列表 需要传递城市,页码
+app.get('/api/list/:city/:page',(req,res)=>{
+    console.log(req.params.city);
+    res.send(list);
+})
+
+
 //fetch(url,{
 //    Accept:"application/json"
 //}).then(res=>res.json()).then(data=>{

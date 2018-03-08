@@ -4,8 +4,9 @@
 import React,{Component} from 'react';
 import HomeHeader from '../../components/HomeHeader';
 import Slider from '../../components/Slider';
-import Ad from '../../fetch/home/subpage/Ad';
+import Ad from './subpage/Ad';
 import {connect} from 'react-redux';
+import List from './subpage/List';
 class Home extends Component{
     render(){
         return(
@@ -13,6 +14,7 @@ class Home extends Component{
                 <HomeHeader cityName = {this.props.userInfo.cityName}/>
                 <Slider/>
                 <Ad/>
+                <List cityName = {this.props.userInfo.cityName}/>
             </div>
         )
     }
