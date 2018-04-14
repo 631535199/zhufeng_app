@@ -3,6 +3,7 @@
  */
 import {get} from '../index'
 
+//获取AD数据
 export function getAd(){
     return get('/api/ad');
 

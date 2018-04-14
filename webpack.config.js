@@ -4,7 +4,6 @@
 
 let path = require('path');
 let htmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports={
     entry:'./app/index.js',
     output:{
