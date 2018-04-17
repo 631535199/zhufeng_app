@@ -31,11 +31,11 @@ yarn add swipe-js-iso react-swipe
 "build","webpack -p"
 
 
-##目录结构
+##目录结构  
 -components 组件 木偶组件
 -containers 页面组件
     -home
-        -subpage 智能组件
+        -subpage 智能组件1
         -index.js
 -index.js用来控制显示哪一个页面
 -store onlyOne
