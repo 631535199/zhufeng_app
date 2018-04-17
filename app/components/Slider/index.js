@@ -4,6 +4,7 @@
 import React,{Component} from 'react';
 import ReactSwipe from 'react-swipe';
 import './index.less';
+import {Link} from 'react-router-dom';
 export default class Slider extends Component{
     constructor(){
         super();
@@ -26,10 +27,12 @@ export default class Slider extends Component{
                     <div>
                         <ul className="swipeUl">
                             <li>
-                                <div>
-                                    <i className="iconfont icon-bianfu"></i>
-                                    <span>蝙蝠</span>
-                                </div>
+                                <Link to="/search/jingdian">
+                                    <div>
+                                        <i className="iconfont icon-bianfu"></i>
+                                        <span>蝙蝠</span>
+                                    </div>
+                                </Link>
                                 <div>
                                     <i className="iconfont icon-bianfu"></i>
                                     <span>蝙蝠</span>
@@ -48,10 +51,12 @@ export default class Slider extends Component{
                                 </div>
                             </li>
                             <li>
-                                <div>
-                                    <i className="iconfont icon-bianfu"></i>
-                                    <span>蝙蝠</span>
-                                </div>
+                                <Link to="/search/jingdian">
+                                    <div>
+                                        <i className="iconfont icon-bianfu"></i>
+                                        <span>蝙蝠</span>
+                                    </div>
+                                </Link>
                                 <div>
                                     <i className="iconfont icon-bianfu"></i>
                                     <span>蝙蝠</span>
@@ -75,10 +80,12 @@ export default class Slider extends Component{
                     <div>
                         <ul className="swipeUl">
                             <li>
-                                <div>
-                                    <i className="iconfont icon-bianfu"></i>
-                                    <span>蝙蝠</span>
-                                </div>
+                                <Link to="/search/jingdian">
+                                    <div>
+                                        <i className="iconfont icon-bianfu"></i>
+                                        <span>蝙蝠</span>
+                                    </div>
+                                </Link>
                                 <div>
                                     <i className="iconfont icon-bianfu"></i>
                                     <span>蝙蝠</span>
@@ -97,10 +104,12 @@ export default class Slider extends Component{
                                 </div>
                             </li>
                             <li>
-                                <div>
-                                    <i className="iconfont icon-bianfu"></i>
-                                    <span>蝙蝠</span>
-                                </div>
+                                <Link to="/search/jingdian">
+                                    <div>
+                                        <i className="iconfont icon-bianfu"></i>
+                                        <span>蝙蝠</span>
+                                    </div>
+                                </Link>
                                 <div>
                                     <i className="iconfont icon-bianfu"></i>
                                     <span>蝙蝠</span>
@@ -124,10 +133,12 @@ export default class Slider extends Component{
                     <div>
                         <ul className="swipeUl">
                             <li>
-                                <div>
-                                    <i className="iconfont icon-bianfu"></i>
-                                    <span>蝙蝠</span>
-                                </div>
+                                <Link to="/search/jingdian">
+                                    <div>
+                                        <i className="iconfont icon-bianfu"></i>
+                                        <span>蝙蝠</span>
+                                    </div>
+                                </Link>
                                 <div>
                                     <i className="iconfont icon-bianfu"></i>
                                     <span>蝙蝠</span>
@@ -146,10 +157,12 @@ export default class Slider extends Component{
                                 </div>
                             </li>
                             <li>
-                                <div>
-                                    <i className="iconfont icon-bianfu"></i>
-                                    <span>蝙蝠</span>
-                                </div>
+                                <Link to="/search/jingdian">
+                                    <div>
+                                        <i className="iconfont icon-bianfu"></i>
+                                        <span>蝙蝠</span>
+                                    </div>
+                                </Link>
                                 <div>
                                     <i className="iconfont icon-bianfu"></i>
                                     <span>蝙蝠</span>

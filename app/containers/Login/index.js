@@ -31,6 +31,8 @@ class Login extends Component{
         //更改redux中的state
         this.props.userActions.update(info);
         //如果是从购买页进入的需要跳回购买页
+        console.log(this.props.match.params)
+
         if(this.props.match.params.route){
             //提交login的路径肯定是通过encode转换后的跳转需要解码跳转
             this.props.history.push(decodeURIComponent(this.props.match.params.route));
