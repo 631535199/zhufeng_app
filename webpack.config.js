@@ -7,10 +7,11 @@ let htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports={
     entry:{
-        index:'./app/index.js'
+        index:'./app/index.js',
+        vendor:['react','react-dom','redux','react-redux','react-router-dom']
     },
     output:{
-        filename:"bundle.js",
+        filename:"[name].js",
         path:path.resolve('dist')
     },
     module:{
