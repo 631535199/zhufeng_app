@@ -1,7 +1,7 @@
 {
-  "scripts":{
-    "start":"webpack-dev-server --port 3002 --open --progress --colors",
-    "build":"webpack -p"
+  "scripts": {
+    "start": "webpack-dev-server --port 3002 --open --progress --colors",
+    "build": "webpack -p"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -28,6 +28,7 @@
     "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
+    "postcss-loader": "^2.1.4",
     "webpack-cli": "^2.0.14"
   }
 }
